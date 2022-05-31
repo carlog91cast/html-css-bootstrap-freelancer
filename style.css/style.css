@@ -1,9 +1,16 @@
-.container {
+.green {
     background-color: #55BD9D;
 }
 .text-center img{
     width: 15%;
 }
-.text-center h1{
+.text-center h1,h6{
     color: white;
+    padding: 20px;
+}
+.text-center i{
+    color: white;
+}
+.col-12{
+    width: 15%;
 }
