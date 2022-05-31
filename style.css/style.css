@@ -1,6 +1,9 @@
 .green {
     background-color: #55BD9D;
 }
+.green i{
+    color: white;
+}
 .text-center img{
     width: 15%;
 }
