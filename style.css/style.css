@@ -11,5 +11,37 @@
     color: white;
     padding: 20px;
 }
+.ms_star{
+    margin: 20px auto;
+    max-width: 300px;
+    min-width: 100%;
+    color: black;
+}
+.ms_star::after,
+.ms_star::before{
+    content:  '';
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: white;
+    vertical-align: middle;
+}
+.ms_star_black{
+    margin: 20px auto;
+    max-width: 300px;
+    min-width: 100%;
+    color: black;
+}
+.ms_star_black::after,
+.ms_star_black::before{
+    content:  '';
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    border-radius: 2px;
+    background-color:black;
+    vertical-align: middle;
+}
 
 
