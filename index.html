@@ -30,13 +30,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav text-end text-sm-start fw-bold">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#portfolio">PORTFOLIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">ABOUT</a>
+                            <a class="nav-link text-white" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">CONTACT</a>
+                            <a class="nav-link text-white" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="portfolio">
             <div class="row">
                 <div class="text-center">
                     <h1 class="text-dark">PORTFOLIO</h1>
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="green">
-            <div class="container">
+            <div class="container" id="about">
                 <div class="row">
                     <div class="text-center">
                         <h1>ABOUT</h1>
@@ -121,17 +121,31 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="text-center">
+        <div class="container" id="contact">
+            <div class="row mb-5">
+                <div class="text-center ms_text">
                     <h1>CONTACT ME</h1>
                     <div class="ms_star_black">
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="col-12"><input type="text" placeholder="name"></div>
-                    <div class="col-12"><input type="email" name="" id="" placeholder="E-Mail address"></div>
-                    <div class="col-12"><input type="number" name="" id="" placeholder="Phone Number"></div>
-                    <div class="col-12"><input type="textarea" name="" id="" placeholder="message"></div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label"></label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label"></label>
+                        <input type="email" class="form-control" id="formGroupExampleInput2"
+                            placeholder="E-Mail Address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label"></label>
+                        <input type="number" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Phone number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label"></label>
+                        <textarea class="form-control" name="" id="formGroupExampleInput2" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
                 </div>
             </div>
         </div>
